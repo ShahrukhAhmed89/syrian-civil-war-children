@@ -1,0 +1,94 @@
+@import 'https://fonts.googleapis.com/css?family=Lora';
+body {
+  font-family: arial, sans-serif;
+}
+
+div#timeline {
+  background-color:#DCDCDC;
+  margin-top: 5%;
+  height: 5px;
+  position: relative;
+  margin-left:5%;
+  margin-right: 5%;
+
+}
+div .text{
+  padding: 0 20% 0 20%;
+  margin-top:5%;
+}
+div#timeline .dot {
+  z-index: 99;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  text-align: center;
+  cursor: pointer;
+   border:5px solid #DCDCDC;
+  background-color:white;
+  z-index:100;
+}
+
+div#timeline .dot#one {
+background-color:#FF6347;
+  left: 5%;
+}
+
+div#timeline .dot#two {
+  left: 25%;
+}
+div#timeline .dot#three {
+  left: 48%;
+}
+div#timeline .dot#four {
+  left: 70%;
+}
+div#timeline .dot#five {
+ left: 90%;
+}
+
+div#timeline .dot:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+div#timeline .dot date {
+  font-family: roboto;
+  font-size: 1em;
+  display: block;
+  position: relative;
+  top:-25px;
+  left:-5px;
+  text-align: center;
+}
+
+
+div.content {
+ 
+  position: relative;
+  top: 30px;
+  max-width: 960px;
+  background-color: #fff;
+  padding: 20px;
+  height: auto;
+  margin:5%;
+}
+
+div p {
+
+font-family: 'Roboto Slab', serif;
+  line-height: 25px;
+  text-align: justify;
+  font-size:1.2em;
+}
+
+
+.hide
+{
+    display: none;
+}
+
+
+
